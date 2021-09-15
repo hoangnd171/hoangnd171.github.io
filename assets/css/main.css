@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFB !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.trading {
+    display: flex;
+    color: white;
+    margin: 0px !important;
+}
+
+.trading-card {
+    border: none;
+    background-color: #1D2646;
+    height: 100vh;
+    color: #fff;
+    padding: 0px 70px;
+}
+
+h2 {
+    color: #fff;
+}
+
+.trading__card__heading {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-info {
+    color: #A0A2ae;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.card-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 9px;
+}
+
+.card-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.email {
+    margin-right: 80px;
+}
+
+.email-input,
+.password-input {
+    display: flex;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0 30px;
+    background: #fff;
+    outline: unset;
+    border: 0px;
+}
+
+.a__forgot__password {
+    color: #fff;
+    margin-left: 9px;
+    font-size: 18px;
+}
+
+.password .a__forgot__password:hover {
+    cursor: pointer;
+    color: #A0A2ae;
+    text-decoration: none;
+}
+
+.card-button {}
+
+.card-button .btn {
+    align-items: center;
+    width: 152px;
+    height: 44px;
+    border-radius: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    margin-top: 22px;
+    outline: unset !important;
+}
+
+.btn-login {
+    background-color: #FFC700;
+    margin-right: 40px;
+}
+
+.btn-signup {
+    border: 1px solid #fff!important;
+    background-color: #1D2646;
+}
+
+.trading-img {
+    text-align: center;
+}
+
+.img-bike {
+    width: 317px;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 576px) {
+    .trading {
+        height: auto;
+    }
+    .card-button .btn-login {
+        width: 120px;
+        height: 32px;
+    }
+    .img__bike {
+        width: 120px;
+        right: 15%;
+        top: 225px;
+    }
+    .btn-signup {
+        background-color: #00bcd4;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .trading {
+        position: relative;
+    }
+    .trading-card {
+        background-color: #00bcd4;
+        padding: 0px 20px;
+    }
+    .card-input .email,
+    .card-input .password {
+        width: 100%;
+    }
+    .trading__card__heading {
+        margin-top: 138px;
+        margin-bottom: 13px;
+        font-size: 38px;
+    }
+    .card-info {
+        font-size: 16px;
+        margin: 0px 0px 114px;
+        color: #99e4ee;
+    }
+    .card-input {
+        display: grid;
+    }
+    .card-input .email {
+        margin-right: 0px;
+        margin-bottom: 14px;
+    }
+    .card-input .card-label {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .input {
+        border-radius: 10px;
+        height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .a__forgot__password {
+        margin-left: 0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .card-button {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-button .btn {
+        width: 130px;
+        height: 36px;
+        border-radius: 32px;
+        font-size: 14px;
+    }
+    .trading-img {
+        position: unset!important;
+    }
+    .img-bike {
+        position: absolute;
+        width: 140px;
+        margin: 0px;
+        right: 22%;
+        top: 225px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .img-bike {
+        width: 250px;
+        margin-top: 160px;
+        margin-left: -10px;
+    }
+    .card-button .btn {}
+    .email {
+        margin-right: 30px;
+    }
+    .trading__card__heading {
+        margin-top: 82px;
+        margin-bottom: 23px;
+    }
+    .card-info {
+        margin-bottom: 59px;
+    }
+    .trading-card {
+        padding: 0 30px;
+    }
+    .card-label {
+        margin-bottom: 8px;
+    }
+}
